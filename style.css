@@ -20,6 +20,8 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 header article {
@@ -298,4 +300,71 @@ li {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
+}
+
+
+/* -- ABOUT -- */
+
+.about-pat1 {
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+}
+
+.meet {
+  padding: 5rem 0;
+  color: white;
+  background-color: #004047;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.meet h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about2 {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.meet .container li {
+  width: 90dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.recto {
+  display: none;
+  background-color: #012F34;
+}
+
+.verso {
+  display: block;
+  background-color: #012F34;
+}
+
+.profil-img {
+  border-radius: 50%;
+  max-width: 5rem;
+  border: .15rem solid #79C8C7;
+  margin-bottom: .7rem;
+}
+
+.meet h3 {
+  color: #79C8C7;
 }
